@@ -1,0 +1,98 @@
+
+
+27/01/18
+
+Class Assignments:
+1. Write a list comprehension to generate list of multiples of 5 in given range.
+>>> [x for x in range(1,100) if (x%5==0)]
+[5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95]
+
+2. Write a list comprehension to return unique elements list from the given list
+3. Write a list comprehension to generate tables for the given range
+4. Write a list comprehension to give intersection of 2 list.
+
+H.W
+1. Write a list comprehension to return union of 2 list
+2. Implement set function on list. For example, take 2 list as input & return union,intersection,symmetric_difference,difference,ISdisjoint of them.
+3. Use fromkeys in dictionary, and provide values from the list to individual keys. For example
+y = dict.fromkeys(x,[7,8,9]), here 7, 8 ,9 etc should be assigned to keys in y respectively.
+
+-----------------------------------------------------------------------------------------------------
+
+28/01/18
+
+Assignment:
+1. Write a program
+Hint: aabbcccddabbb -> o/p a2b2c3d2ab3
+2. Create a dictionary for strings like below "aabbbccddabbb"
+    i. {a:3, b:6,c:2,d:2}
+    ii. a: {0:2,9:1},
+        b: {2:3,10:3},
+        c: {5:2},
+        d: {8:3}
+       
+3. Write a program to accept employee details from user and perform following operations on the same. following details of employee shoud be accepted: name, dob, address, salary
+    i create employee
+    ii search employee
+    iii update details of employee.
+    iv display all employees
+    v insert an employee
+    vi remove an employee
+   
+    def main()
+        employee_list={}
+        ch = Menu()
+        while ch!=7"
+            if ch==1:
+                employee_list=
+
+-----------------------------------------------------------------------------------------------------
+
+03/02/18
+
+Class Assignment:
+1. Write a program to accept a name of file from user & print it line by line by using readline method.
+
+H.W
+2. Write a program to accept 2 numbers from user and check if both of them have same number of 0 & 1 bits. [Use bitwise]
+3. Write a program to accept number of lines to be read using readlines.
+4. Write a program to compare 2 dictionaries
+5. Write a program to accept a file name from user which contains data in following format. Create a dictionary out of this format.
+    audio = True
+    HFP = False
+    Gateway = True
+
+    Handle below scenarios:
+    --
+    audio = True #audio config
+    gateway=false
+    [SBC]
+    Anything other then the pairs should be removed. All such cases should be ignored.
+
+-----------------------------------------------------------------------------------------------------
+
+04/02/18
+
+Assignments: H.W
+1. Complete dictionary assignment (started in class)
+- Write a program to accept a file name from user which contains data in following format. Create a dictionary of dictionary out of this format. Use "audio.conf" file shared by Jitendra.
+2. Write a program to accept file from the user and print count of lines present in that file based on following filters
+- if filter comes as empty then line count
+- if filter comes as "^Hello", then line count should be of lines which starts with "Hello"
+- if filter comes as "Hello$" then count lines which ends with Hello.
+- if filter comes as "Hello" string in the line, then count lines.
+
+3. Write a program to accept name of a file from user & display longest & smallest line from the same.
+4. Write a program from Assignments (Presentation No 4) and print the average prices of petrol.
+5. Write a program to accept filename from user and display alternate 20 characters. Take alternate values from the user.
+6. Write a program to accept filename from user and display file in reverse order without using loop,readlines,without any built-in container. Hint: Use recursive program.
+7. Read basic RTP packet format [get it from Wikipedia], create a packet & depaketize it & print respective information.
+8. Write a program to create an archive file of the specified folder using sh util module.
+9. Go through the file handling presentation [presentation 4], os.path manipulation. Try calling functions mentioned for that.
+10. Write a program to accept a number from user and check if it is special number or not. Hint: Sum of factorials of the digits is special number. Ex.145
+11. Write a program which computes values of following expression "a+aa+aaa+aaaa+aaaaa".
+If user give 5 then it should be like 5+55+555+5555+55555 etc.
+
+
+Regards,
+Vinod

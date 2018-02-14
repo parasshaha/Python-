@@ -1,0 +1,71 @@
+#1 WAP to accept a range(lower and upper bound) from user and print all the numbers in that range which 
+   are not multiple of 2 & 3...(using continue)
+
+#2 WAP to accept n number from user and display addition of them
+
+#3 WAP to accept number from user and check whether it is armstrong
+
+jump controls
+1.break
+2.continue
+3.return
+
+
+4.pass         // used for time delay loops
+
+example
+
+def Test():   // for an empty function
+pass
+
+for _ in range (1000)  //   "_" is a anyonmous variable
+	pass           
+
+
+
+
+#4 WAP to accept number from user and print its factorial
+
+#5Stack frame for factorial of 7 and GCD of 7,49
+
+
+**********************************
+
+WAP to check the given number is two power or not without using arthematic operator.
+
+WAP to accept number from user and turn of its right most 1 bit
+
+
+WAP to accept a number ,position and number of bits to be turn off from the given position.
+Turn off respective bits from the given position and display result.
+
+WAP to accept two numbers from user and accept position and number of bits to be swap from the given two numbers.
+
+
+********************************
+crc 3 bits
+length 7 bits
+data 16 bits
+flag 2 bits
+protocol 4 bits
+
+****************************************
+explore the methods of collections
+import collections
+object creation
+x=collections.deque()
+
+#WAP to accept 2 list from user and sort them without using built in method and then merge the two list.
+#go through tupples
+
+****************************
+WAP to accept employee detials from user and perform following operations:
+1.search employee
+2.update details
+3.Display all 
+4.insert employee
+5.remove employee
+following details of 
+name,DOB,address,salary
+******************************************
+WAP to accept two numbers from user and check if both of themhave same number of 0 and 1 bits
